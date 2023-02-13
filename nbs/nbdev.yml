@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "GPTutorial"
+  site-url: "https://BorjaRequena.github.io/GPTutorial"
+  description: "GPT: the model even your dog has heared of"
+  repo-branch: main
+  repo-url: "https://github.com/BorjaRequena/GPTutorial"
