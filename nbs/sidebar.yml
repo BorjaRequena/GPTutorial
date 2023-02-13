@@ -1,8 +1,9 @@
 website:
+  repo-url: https://github.com/BorjaRequena/GPTutorial
+  repo-subdir: nbs
+  repo-actions: [source, issue]
   sidebar:
     contents:
       - index.ipynb
-      - section: Tutorial
-        href: tutorial.ipynb
-      - section: Tutorial walkthrough
-        href: metatutorial.ipynb
+      - tutorial.ipynb
+      - metatutorial.ipynb
