@@ -7,6 +7,9 @@ This tutorial has been developed for the [VI Pyrenees winter
 school](https://setcases6.wordpress.com/) (Feb. 2023) of quantum
 information.
 
+If you’re a participant of the school, please see [material](#material)
+below.
+
 If you’re not a participant of the school, you’re probably seeing this
 content after the actual hands-on tutorial has happened. However, you
 may find it useful to visit the [the tutorial
@@ -52,3 +55,20 @@ We provide two main notebooks that can run in colab:
 
 - `nbs/tutorial.ipynb` is ready to be filled during the session
 - `nbs/metatutorial.ipynb` is the already complete tutorial
+
+To follow along with the tutorial, you need the first notebook. Ideally,
+you could simply go to [its
+page](https://borjarequena.github.io/GPTutorial/tutorial.html) and run
+it on google colab. However, since the wifi here is unstable, you can
+clone (or simply download) [the
+repository](https://github.com/BorjaRequena/GPTutorial) to your
+computer.
+
+If you want to follow along, make sure you have
+[pytorch](https://pytorch.org/) installed. We won’t use any fancy stuff
+from pytorch so you can simply run `conda install pytorch -c pytorch` to
+install it with conda or `pip install torch` to install it with pip. In
+case you have a GPU, find your installed CUDA version (e.g. 11.7) to
+install `conda install pytorch-cuda=11.7 -c nvidia`. Follow their
+[getting started page](https://pytorch.org/get-started/locally/) in case
+of doubt.
